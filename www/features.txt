@@ -1,0 +1,2 @@
+1. javascript does not have to be compiled. (it's a scripting language)
+2. javascript is not type sensitive. ("3" == 3)

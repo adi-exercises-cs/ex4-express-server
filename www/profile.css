@@ -1,0 +1,113 @@
+/*css styling for profile.html*/
+body {
+    background-color: #3D3C41;
+    color: #fff;
+    font-family: arial;
+    line-height: 30px;
+}
+.inputs {
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #333;
+}
+.btn {
+    border-radius: 5px;
+}
+.main {
+    display: block;
+    height: 605px;
+    border-bottom: solid 2px #333;
+}
+#first-name {
+    font-weight: normal;
+}
+.info {
+    margin-top: 30px;
+}
+h1 {
+    margin: 10px;
+    display: inline-block;
+    border-bottom: solid 3px #fff;
+}
+h2 {
+    font-size: 14px;
+}
+#about {
+    padding-left: 10px;
+}
+#my-pic {
+    display: block;
+    float:right;
+    padding-left: 10px;
+    padding-top: 30px;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari and Chrome */
+}
+td {
+    vertical-align: text-top;
+    padding-right: 10px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFEA4C;
+}
+a:hover {
+    color: #FFF399;
+}
+a:active {
+    color: white;
+}
+
+.calculator {
+    position: relative;
+    width: 405px;
+    height: 110px;
+    
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    
+    background: #FFEA4C;
+    border-radius: 3px;
+    /*box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);*/
+}
+
+#screen {
+    float: left;
+}
+
+#input-box {
+    float: right;
+}
+
+.calculator span.btn {
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    background: white;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+#plus {
+    left: 180px;
+}
+
+#mult {
+    right: 180px;
+}
+
+#clear {
+    /*float: right;*/
+    left: 65px;
+    bottom: 20px;
+}
+
+#set {
+    /*float: left;*/
+    left: 20px;
+    bottom: 20px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my first web page</title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="./profile.js"></script>
+   <!--  <script>
+// function B() {}
+// function C() {}
+// function D() {}
+
+
+// var a = {x:3}.__proto__;
+// B.prototype = a.prototype;
+// var b = new B();
+// C.prototype = b;
+// var c = new C();
+// D.prototype = c;
+// var d = new D();
+
+// console.log("A - "+a.__proto__);
+// console.log("B - "+b.__proto__);
+// console.log("C - "+c.__proto__ == b);
+// console.log("D - "+d.__proto__ == c);
+      </script>-->
+    <link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+
+<body>
+    <div class="inputs">
+        Username:
+        <input id="name" type="text">Password:
+        <input id="password" type="password">
+        <input class="btn" id="submit-btn" type="submit">
+    </div>
+    <div class="ex1">
+        <div class="main">
+            <img id="my-pic" src="./grandmaNme.jpg" </img>
+            <div class="info">
+                <h1><span id="first-name">Adi,</span>Erteschik</h1>
+                <br>
+                <h1>(201628484)</h1>
+                <p id="about">
+                    Welcome to my personal website..
+                    <br>I'm a third year student in the joint program for technology and design. I study computer science in the Hebrew University and visual communications in Bezalel and I am currently starting to work as a web developer / designer in a small startup called Iridize. I still don't know much about js and such, but they are willing to teach me and I am taking this course in order to get a more theoretical grasp of things as I dive in the implementation of it all.
+                </p>
+            </div>
+            <div class="links">
+                <h2>My favorite links:</h2>
+                <table>
+                    <tr>
+                        <td><a href="http://www.instructables.com/">Instructables</a>
+                        </td>
+                        <td>a really cool website giving instructions for all sorts of DIY projects. some are technonolgy based and others are not</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://flowingdata.com/">Flowingdata</a>
+                        </td>
+                        <td>a very interesting visualization website by Dr. Nathan Yau</td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://alaxon.co.il/">Alaxon</td>
+                        <td>great articles on science, philosophy, culture, and art (in Hebrew)</td>
+                    </tr>   
+                </table>
+            </div>
+        </div>   
+        <div>
+            <p>Found it in the toilet of "Room 140" which is a cool Arak bar in Tel Aviv (:</p>
+            <img src="./ministryofmagic.jpg">
+        </div>
+    </div>
+    <div class="calculator" style="display: none">
+        <div>
+            calculator
+        </div>
+        <input type="number" id="screen" disabled>
+        <span class="btn" id="plus">+</span>
+        <span class="btn"id="mult">x</span>
+        <input type="number"id="input-box">
+        <div id="manage">
+            <span class="btn" id="set">SET</span>
+            <span class="btn" id="clear">C</span>
+        </div>
+    </div>
+</body>
+</html>
